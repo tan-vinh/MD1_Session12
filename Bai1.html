@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // var array = ["A","B"]; 
+        var array = ["A","B",1,2];
+        var array1 = [];
+        for (var i = 0; i < array.length; i++) {
+            if (array[i] === array[i]/1) {
+                array1.push(array[i]);
+            }
+        }
+        if (array1.length==0) {
+            console.log("Trong mảng không tồn tại số nguyên");
+        }else{
+            console.log(array1);
+        }
+    </script>
+</body>
+</html>

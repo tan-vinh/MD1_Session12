@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var array = ["A","B",1,2];
+        var n = prompt("nhập giá trị cần tìm");
+        var a = false;
+        for (var i=0;i<array.length;i++){
+            if(array[i]==n){
+                a = true;
+                break;
+            }
+        }
+        if(a==true){
+            console.log("Vị trí của phần tử trong mảng là "+(i+1));
+        }else{
+            console.log("Phần tử không tồn tại");
+        }
+    </script>
+</body>
+</html>
